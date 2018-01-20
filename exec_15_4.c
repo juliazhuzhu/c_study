@@ -3,6 +3,13 @@
 #include <math.h>
 #include <string.h>
 
+/*
+    From C Prime Plus, chapter 15, bit fiddling
+    Write a function that takes two int arguments: a value and a bit position. Have the
+    function return 1 if that particular bit position is 1, and have it return 0 otherwise. Test
+    the function in a program.
+*/
+
 int main(int argc, char** argv){
 
     int  value = atoi(argv[1]);
