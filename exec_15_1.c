@@ -50,6 +50,8 @@ int main(){
     char * pbin = "01001000";
     int result = covnert_bin(pbin);
 
+    char names[50][32];
+    printf("name len %d \n",sizeof(names[0]));
     printf("result %d \n", result);
 
     return 0;
